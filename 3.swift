@@ -33,4 +33,6 @@ while numberOfInterest != 1 {
     }
 }
 
+// Solution: 6857
 println(possiblePrime)
+

@@ -17,4 +17,5 @@ while (fib2 <= 4000000) {
     }
 }
 
+// Solution: 4613732
 println(total)
