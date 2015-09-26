@@ -8,12 +8,9 @@ Please do not view solutions unless you have already completed them yourself.
 
 These solutions were ran with these language versions.
 
-+----------------------+----------------+
-| Programming Language | Version Number |
-+----------------------+----------------+
-| Ruby                 | 2.2            |
-+----------------------+----------------+
-| Swift                | 2.0            |
-+----------------------+----------------+
-| C#                   | 6.0            |
-+----------------------+----------------+
+
+Programming Language | Version
+---------------------|--------
+Ruby                 | 2.2
+Swift                | 2.0
+C#                   | 6.0
