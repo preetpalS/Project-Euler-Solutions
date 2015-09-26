@@ -26,4 +26,4 @@ while true {
 }
 
 // Solution: 232792560
-println(possibleSolution)
+print(possibleSolution)

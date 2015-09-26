@@ -1,6 +1,6 @@
 
 func isPalindrome(possiblePalindrome: String) -> Bool {
-    return possiblePalindrome == String(reverse(possiblePalindrome))
+    return possiblePalindrome == String(possiblePalindrome.characters.reverse())
 }
 
 var bestSoFar = 0
@@ -15,4 +15,4 @@ for x in 100..<1000 {
 }
 
 // Solution: 906609
-println(bestSoFar)
+print(bestSoFar)

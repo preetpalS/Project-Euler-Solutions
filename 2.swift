@@ -1,5 +1,5 @@
 
-func nthFibonacciSequenceTerm(secondLastTerm: Int, lastTerm: Int) -> (lastTerm: Int, nthTerm: Int) {
+func nthFibonacciSequenceTerm(secondLastTerm: Int, _ lastTerm: Int) -> (lastTerm: Int, nthTerm: Int) {
     return (lastTerm, secondLastTerm + lastTerm)
 }
 
@@ -18,4 +18,4 @@ while (fib2 <= 4000000) {
 }
 
 // Solution: 4613732
-println(total)
+print(total)
