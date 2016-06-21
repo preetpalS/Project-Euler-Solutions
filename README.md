@@ -15,3 +15,4 @@ Ruby                 | 2.2
 Swift                | 2.0
 C#                   | 6.0
 Haskell              | GHC (Version 7.10.2)
+Go                   | 1.6.2
