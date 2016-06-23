@@ -133,7 +133,7 @@ int main() {
     std::string word = numberToWord(i);
     std::cout << i << ": " << word << std::endl;
     for (auto c : word)
-      if (' ' != c || '-' != c)
+      if (' ' != c && '-' != c)
         count = count + 1;
   }
 
