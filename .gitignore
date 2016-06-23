@@ -5,4 +5,5 @@
 *.hi
 *.exe
 *.o
+*.out
 .DS_Store
