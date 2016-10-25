@@ -6,7 +6,7 @@ Please do not view solutions unless you have already completed them yourself.
 
 ## Programming Language Versions ##
 
-These solutions were ran with these language versions.
+These solutions were ran with these language versions unless indicated otherwise in source file.
 
 
 Programming Language | Version
@@ -17,3 +17,4 @@ C#                   | 6.0
 Haskell              | GHC (Version 7.10.2)
 Go                   | 1.6.2
 C++                  | clang-783.0.31
+Erlang               | 19 (otp_release)
