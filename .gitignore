@@ -5,6 +5,7 @@
 *.hi
 *.exe
 *.o
+*.obj
 *.out
 *.beam
 .DS_Store
