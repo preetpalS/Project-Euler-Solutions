@@ -1,5 +1,5 @@
 
-grid = File.read('011/grid.txt').strip.split("\n").map do |row|
+grid = File.read('data/011/grid.txt').strip.split("\n").map do |row|
   row.split(' ')
 end.map do |row|
   row.map do |val|

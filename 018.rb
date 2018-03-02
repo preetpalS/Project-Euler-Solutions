@@ -1,5 +1,5 @@
 
-triangle = File.read('018/triangle.txt').strip.split("\n").map do |row|
+triangle = File.read('data/018/triangle.txt').strip.split("\n").map do |row|
   row.split(' ')
 end.map do |row|
   row.map do |val|

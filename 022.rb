@@ -1,7 +1,7 @@
 
 LETTER_SCORES = Hash[('A'..'Z').zip(1..26)]
 
-names = File.read('022/p022_names.txt').strip[1..-2].split("\",\"").sort
+names = File.read('data/022/p022_names.txt').strip[1..-2].split("\",\"").sort
 
 name_scores_sum = 0
 names.each_with_index do |name, index|

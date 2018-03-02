@@ -1,5 +1,5 @@
 
-FILE_CONTENTS = File.read('059/p059_cipher.txt').strip.split(',').map(&:to_i)
+FILE_CONTENTS = File.read('data/059/p059_cipher.txt').strip.split(',').map(&:to_i)
 
 # From: https://en.wikipedia.org/wiki/Most_common_words_in_English (yes I know I am quoting Wikipedia)
 MOST_COMMON_WORDS_DOWNCASED_WITH_RANKING = [
