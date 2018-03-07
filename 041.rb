@@ -17,7 +17,7 @@ def prime?(n)
   true
 end
 
-primes = Enumerator.new do|yielder|
+primes = Enumerator.new do |yielder|
   yielder.yield 2
 
   to_test = 3
