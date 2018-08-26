@@ -66,8 +66,8 @@ Solution (p = 840): 8
 C:\Users\me\folder\Project-Euler-Solutions>node -v
 v10.2.1
 
-C:\Users\ps\Projects\Project-Euler-Solutions>
-*/
+C:\Users\me\folder\Project-Euler-Solutions>
+ */
 
 /*
 // Problem description (from projecteuler.net (https://projecteuler.net/problem=39); please visit the site and donate to it if you find it useful)
