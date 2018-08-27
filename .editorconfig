@@ -1,0 +1,138 @@
+# -*- encoding: utf-8; -*-
+
+# revision: 6 (modified)
+# Modified [*.{cs,fs,vb}] to use utf-8 instead of utf-16le because of Git.
+
+root = true
+
+[*]
+insert_final_newline = true
+max_line_length = unset
+trim_trailing_whitespace = true
+
+[*.{el,lisp,org}]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+
+[*.{elm,js,json,hs,rb,yml}]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+
+# clone of *.rb
+[{Rakefile,Gemfile,package.json}]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+
+# Note that the latin1 encoding is a subset of the windows-1252
+# encoding. Also note that UTF-8 is not a superset of window-1252 so
+# you probably should stay away from using utf-8 (unless you stick to
+# US-ASCII subset which is a common subset of latin1 and UTF-8).
+[*.{bat}]
+charset = latin1
+end_of_line = crlf
+
+[Makefile]
+charset = utf-8
+end_of_line = lf
+indent_style = tab
+
+# Windows-only code (that is Unicode aware) should have charset
+# property set to utf-16le and end_of_line set to crlf.  Everything
+# else should have charset property set to utf-8 and end_of_line set
+# to lf.
+[*.{c,cpp,go,h,hpp,java,ts}]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+
+[*.{cs,fs,vb}]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+
+[*.{csv,tsv,txt}]
+charset = utf-8
+end_of_line = crlf
+
+[*.xml]
+indent_style = space
+
+[.keep]
+insert_final_newline = false
+
+[*.u8_dos_txt]
+charset = utf-8
+end_of_line = crlf
+
+[*.u8_mac_txt]
+charset = utf-8
+end_of_line = cr
+
+[*.u8_unix_txt]
+charset = utf-8
+end_of_line = lf
+
+[*.u8bom_dos_txt]
+charset = utf-8-bom
+end_of_line = crlf
+
+[*.u8bom_mac_txt]
+charset = utf-8-bom
+end_of_line = cr
+
+[*.u8bom_unix_txt]
+charset = utf-8-bom
+end_of_line = lf
+
+[*.u16le_dos_txt]
+charset = utf-16le
+end_of_line = crlf
+
+[*.u16le_mac_txt]
+charset = utf-16le
+end_of_line = cr
+
+[*.u16le_unix_txt]
+charset = utf-16le
+end_of_line = lf
+
+[*.u16be_dos_txt]
+charset = utf-16be
+end_of_line = crlf
+
+[*.u16be_mac_txt]
+charset = utf-16be
+end_of_line = cr
+
+[*.u16be_unix_txt]
+charset = utf-16be
+end_of_line = lf
+
+# The following *.u32* rules require editorconfig-charset-extras.el
+# (https://github.com/10sr/editorconfig-charset-extras-el) and
+# utf-32.el (file from
+# https://github.com/hsaito/hideki-emacs-utilities).
+[*.u32le_dos_txt]
+emacs_charset = utf-32le-with-signature-dos
+
+[*.u32le_mac_txt]
+emacs_charset = utf-32le-with-signature-mac
+
+[*.u32le_unix_txt]
+emacs_charset = utf-32le-with-signature-unix
+
+[*.u32be_dos_txt]
+emacs_charset = utf-32be-with-signature-dos
+
+[*.u32be_mac_txt]
+emacs_charset = utf-32be-with-signature-mac
+
+[*.u32be_unix_txt]
+emacs_charset = utf-32be-with-signature-unix
